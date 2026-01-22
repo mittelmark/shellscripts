@@ -2,8 +2,8 @@
 
 collection of my personal shell scripts
 
-- [bin/dia2file.sh] - convert a given diagram file (PlantUML - pml, GraphViz - dot, ERD - erd, Ditaa - ditaa) into a image file using the kroki webservice
-- [bin/ltdr,sh] - use the github repo of tldr to fetch help pages
+- [bin/dia2file.sh](dia2file.sh) - convert a given diagram file (PlantUML - pml, GraphViz - dot, ERD - erd, Ditaa - ditaa) into a image file using the kroki webservice
+- [bin/ltdr.sh](tldr.sh) - use the github repo of tldr to fetch help pages
 
 ## Installation
 
