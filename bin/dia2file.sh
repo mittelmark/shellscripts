@@ -19,7 +19,7 @@ function calldia2file {
 
         if [ "$ext" == "erd" ]; then
             url=https://kroki.io/erd/$oext/$burl
-        elif [ "$ext" == "erd" ]; then
+        elif [ "$ext" == "dot" ]; then
             url=https://kroki.io/graphviz/$oext/$burl
         elif [ "$ext" == "pml" ]; then         
             url=https://kroki.io/plantuml/$oext/$burl
