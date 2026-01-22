@@ -25,8 +25,18 @@ function calldia2file {
             url=https://kroki.io/plantuml/$oext/$burl
         elif [ "$ext" == "puml" ]; then         
             url=https://kroki.io/plantuml/$oext/$burl
+        elif [ "$ext" == "d2" ]; then         
+            url=https://kroki.io/d2/$oext/$burl
+        elif [ "$ext" == "dbml" ]; then         
+            url=https://kroki.io/dbml/$oext/$burl
+        elif [ "$ext" == "mmd" ]; then         
+            url=https://kroki.io/mermaid/$oext/$burl
+        elif [ "$ext" == "pik" ]; then         
+            url=https://kroki.io/pikchr/$oext/$burl
+        elif [ "$ext" == "dit" ]; then         
+            url=https://kroki.io/dita/$oext/$burl
         else
-            url=https://kroki.io/ditaa/$oext/$burl
+            url=https://kroki.io/$ext/$oext/$burl
         fi
         echo "fetching $(echo $url | cut -c 1-50) ..."
         wget -q $url -O $ofile
