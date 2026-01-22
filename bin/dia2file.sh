@@ -34,7 +34,7 @@ function calldia2file {
         elif [ "$ext" == "pik" ]; then         
             url=https://kroki.io/pikchr/$oext/$burl
         elif [ "$ext" == "dit" ]; then         
-            url=https://kroki.io/dita/$oext/$burl
+            url=https://kroki.io/ditaa/$oext/$burl
         else
             url=https://kroki.io/$ext/$oext/$burl
         fi
